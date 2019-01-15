@@ -91,7 +91,7 @@ disable404 = false
         
         [[params.education.list]]
         degree = "M.S. in Sociology"
-        college = "The University of Texas at Tyle"
+        college = "The University of Texas at Tyler"
         dates = "2013"
 
     # Languages section
