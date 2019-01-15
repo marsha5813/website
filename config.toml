@@ -7,9 +7,9 @@ theme = "hugo-orbit-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 # Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+disableRSS = false
+disableSitemap = false
+disable404 = false
 
 [params]
 
@@ -30,9 +30,9 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Joey Marshall"
+        tagline = "Data analyst"
+        avatar = "headshot-150-square.png"
 
     # Contact section
     [params.contact]
@@ -41,38 +41,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: jmarshall2@pewresearch.org"
+        title = "Email"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+19037212650"
+        title = "+1.903.721.2650"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+       # [[params.contact.list]]
+       # class = "website"
+       # icon = "fa-globe"
+       # url = "//portfoliosite.com"
+       # title = "portfoliosite.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/joey-marshall-26383236/"
+        title = "joey-marshall-26383236"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/marsha5813"
+        title = "github.com/marsha5813"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/joeydm"
+        title = "@joeydm"
 
     # Education section
     [params.education]
@@ -80,18 +80,23 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Ph.D. in Sociology (ABD)"
+        college = "Purdue University"
+        dates = "Expected 2019"
 
+         [[params.education.list]]
+        degree = "M.S. in Sociology"
+        college = "Purdue University"
+        dates = "2015"
+        
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "M.S. in Sociology"
+        college = "The University of Texas at Tyle"
+        dates = "2013"
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.language.list]]
@@ -108,7 +113,7 @@ disable404 = true
 
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
@@ -129,7 +134,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "I'm a quantitative data analyst with expertise in data visualization and predictive modeling. My favorite projects start with messy, unstructured data and end with interactive dashboards and written reports that distill complex information into easily digestible insights. I'm currently a Research Associate at Pew Research Center and am completing my PhD in Sociology at Purdue University.\n\n **Download my [resume](Marshall-Joey-resume.pdf) or my [full academic CV](Marshall-Joey-full-academic-CV.pdf).**"
 
     # Experiences section
     [params.experiences]
@@ -138,26 +143,32 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Research Associate"
+        dates = "2017 - Present"
+        company = "Pew Research Center"
+        details = "Data management; statistical analysis; data visualization (including Tableau dashboards); writing research reports and blog posts for a non-technical audience; communicating findings to the public including the media and national conferences."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Research Assistant"
+        dates = "2014 - 2017"
+        company = "Center on Religion and Chinese Society, Purdue University."
+        details = "Analyzed geospatial data on religion in China and prepared maps for an Atlas published by Brill; contributed to collaborative research projects; created and distribute the monthly newsletter; produced and hosted regular audio and video interviews with guest scholars."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Managing Editor"
+        dates = "2014 - 2017"
+        company = "Review of Religion and Chinese"
+        details = "Oversaw journal manuscripts from submission to publication; communicated with authors, production editor, and editor-in-chief to produce biannual journal issues."
 
+        [[params.jobs.list]]
+        position = "Teaching Assistant"
+        dates = "2011-204"
+        company = "Purdue University and The University of Texas at Tyler"
+        details = "Undergraduate and graduate TA for both online and face-to-face courses. Lectured for courses including Introductory Sociology and Religion in America. Assisted in preparation of course materials. Graded assignments. Led discussion groups."
+        
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -189,7 +200,7 @@ disable404 = true
 
     # Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 
@@ -227,4 +238,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Joey Marshall"
